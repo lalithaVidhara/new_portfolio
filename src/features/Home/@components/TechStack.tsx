@@ -14,9 +14,9 @@ import {
     // Language icons
     FileCode, Hash, Brackets, Terminal as Windows,
     // DevOps icons
-    Cloud, Container, Network, GitBranch, Cpu, Cog,
+    Cloud, Container, Cpu, Cog,
     // Testing icons
-    Beaker, CircuitBoard, Bug, TestTubes
+    Beaker, CircuitBoard, TestTubes
 } from 'lucide-react';
 const slugs = [
     "typescript", "javascript", "dart", "java", "react", "flutter", "android",
@@ -137,7 +137,7 @@ export function TechStack() {
                                 My Tech Stack
                             </h2>
                             <p className="text-lg text-muted-foreground leading-relaxed">
-                                Here is a glimpse of the technologies I've worked with and learned.
+                                Here is a glimpse of the technologies I&apos;ve worked with and learned.
                             </p>
                         </motion.div>
 

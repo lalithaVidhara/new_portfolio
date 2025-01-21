@@ -2,10 +2,9 @@
 
 import { motion } from "framer-motion"
 import Link from "next/link"
-import { Facebook, Instagram, Linkedin, Twitter, Github } from "lucide-react"
+import { Facebook, Instagram, Linkedin, Github } from "lucide-react"
 import { Button } from "@/src/components/ui/button"
 import { FaHackerrank } from "react-icons/fa"
-import { SiCodeforces } from "react-icons/si"
 import { MainLogo } from "@/src/assects"
 import Image from "next/image"
 

@@ -6,7 +6,6 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { Badge } from "@/src/components/ui/badge"
 import { Button } from "@/src/components/ui/button"
 import { ScrollArea } from "@/src/components/ui/scroll-area"
-import Image from 'next/image'
 import { Github, ExternalLink, Calendar, X } from 'lucide-react'
 import { Project } from '@/src/types/commonType'
 
