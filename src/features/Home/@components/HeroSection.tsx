@@ -74,7 +74,7 @@ export default function HeroSection() {
             transition={{ delay: 0.5, duration: 0.5 }}
             className="flex flex-col flex-wrap gap-4 md:items-start justify-center "
           >
-            <Link href="/resume">
+            <Link href="https://drive.usercontent.google.com/download?id=1n4Qd4UUShWApnO5pLu9gsNwDdCcFip_Q&export=download&authuser=0&confirm=t&uuid=6c4ae6af-9da9-4684-8360-368584511021&at=AIrpjvPTextY2ZWJyV5jPfIINOu9:1737424222286">
               <Button
                 className="group relative overflow-hidden bg-blue-600 text-white transition-all hover:bg-blue-700 hover:shadow-lg hover:shadow-blue-500/25"
                 size="lg"
