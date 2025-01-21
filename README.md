@@ -1,8 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio Website 🌐
 
-## Getting Started
+This is my personal portfolio website built with [Next.js](https://nextjs.org/) and deployed on [Vercel](https://vercel.com/). It showcases my projects, skills, and contact information.
 
-First, run the development server:
+## 🚀 Features
+
+- **Modern Design**: Clean and responsive UI.
+- **Performance Optimized**: Fast and SEO-friendly with Next.js.
+- **Dark Mode**: Supports dark and light themes.
+- **Dynamic Content**: Easy to update projects and details.
+
+## 🛠️ Built With
+
+- [Next.js](https://nextjs.org/) - React Framework
+- [Vercel](https://vercel.com/) - Hosting and Deployment
+- CSS Modules/TailwindCSS/Styled-Components (replace based on your styling approach)
+
+## 🌟 Demo
+
+Live website: [https://lalitha-sri-vidhara.vercel.app](https://lalitha-sri-vidhara.vercel.app)
+
+# 🖥️ Getting Started
+
+### Prerequisites
+
+- Node.js >= 16
+- npm or yarn installed
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+   git clone https://github.com/your-username/your-repo-name.git
+```
+
+2. Install dependencies:
+
+ ```bash
+    npm install
+     # or
+    yarn install
+ ```
+
+3. run the development server:
 
 ```bash
 npm run dev
@@ -35,199 +75,19 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
-```
+
+## 📝 Customization
+
+Update src/data files to add your projects, skills, and contact information.
+Modify styles in the styles/ directory to match your branding.
+
+## 🤝 Contributions
+
+Feel free to fork the repository, open an issue, or submit a pull request.
+
+## 📄 License
+
+This project is licensed under the MIT License.
 
 ```
-
-```
-Codewithashim-V3
-├─ .eslintrc.json
-├─ .gitignore
-├─ components.json
-├─ next.config.mjs
-├─ package-lock.json
-├─ package.json
-├─ postcss.config.mjs
-├─ public
-│  ├─ lalitha.png
-│  ├─ lalithalogo.png
-│  ├─ manifest.json
-│  └─ twitter.jpg
-├─ README.md
-├─ src
-│  ├─ app
-│  │  ├─ favicon.ico
-│  │  ├─ fonts
-│  │  │  ├─ GeistMonoVF.woff
-│  │  │  └─ GeistVF.woff
-│  │  ├─ layout.tsx
-│  │  ├─ page.tsx
-│  │  └─ SchemaOrg.tsx
-│  ├─ assects
-│  │  ├─ images
-│  │  │  ├─ lalitha.png
-│  │  │  └─ profile.png
-│  │  ├─ index.tsx
-│  │  └─ logo
-│  │     └─ lalithalogo.png
-│  ├─ components
-│  │  ├─ shared
-│  │  │  ├─ AnimationWrapper.tsx
-│  │  │  ├─ footer
-│  │  │  │  └─ Footer.tsx
-│  │  │  ├─ header
-│  │  │  │  └─ Header.tsx
-│  │  │  └─ ThemeToggle.tsx
-│  │  └─ ui
-│  │     ├─ alert-dialog.tsx
-│  │     ├─ avatar.tsx
-│  │     ├─ badge.tsx
-│  │     ├─ blur-fade.tsx
-│  │     ├─ border-beam.tsx
-│  │     ├─ button.tsx
-│  │     ├─ card.tsx
-│  │     ├─ dialog.tsx
-│  │     ├─ icon-cloud.tsx
-│  │     ├─ input.tsx
-│  │     ├─ pagination.tsx
-│  │     ├─ scroll-area.tsx
-│  │     ├─ select.tsx
-│  │     ├─ separator.tsx
-│  │     ├─ skeleton.tsx
-│  │     ├─ tabs.tsx
-│  │     └─ tooltip.tsx
-│  ├─ config
-│  │  └─ envConfig.tsx
-│  ├─ constant
-│  │  └─ data
-│  │     ├─ data.tsx
-│  │     ├─ experienceData.tsx
-│  │     └─ projectData.tsx
-│  ├─ features
-│  │  ├─ Home
-│  │  │  ├─ @components
-│  │  │  │  ├─ Experiance.tsx
-│  │  │  │  ├─ HeroSection.tsx
-│  │  │  │  ├─ ImageSection.tsx
-│  │  │  │  ├─ Project.tsx
-│  │  │  │  └─ TechStack.tsx
-│  │  │  └─ Home.tsx
-│  │  └─ Project
-│  │     └─ Project.tsx
-│  ├─ hooks
-│  │  ├─ useDebounce.tsx
-│  │  └─ useTheme.tsx
-│  ├─ lib
-│  │  ├─ network.ts
-│  │  └─ utils.ts
-│  ├─ schema
-│  ├─ styles
-│  │  ├─ globals.scss
-│  │  ├─ notion.scss
-│  │  └─ prism.scss
-│  ├─ types
-│  │  └─ commonType.ts
-│  └─ utils
-│     ├─ helper.ts
-│     ├─ notion.ts
-│     └─ RichTextComponent.tsx
-├─ tailwind.config.ts
-└─ tsconfig.json
-
-```
-```
-Codewithashim-V3
-├─ .eslintrc.json
-├─ .gitignore
-├─ components.json
-├─ next.config.mjs
-├─ package-lock.json
-├─ package.json
-├─ postcss.config.mjs
-├─ public
-│  ├─ lalitha.png
-│  ├─ lalithalogo.png
-│  ├─ manifest.json
-│  └─ twitter.jpg
-├─ README.md
-├─ src
-│  ├─ app
-│  │  ├─ favicon.ico
-│  │  ├─ fonts
-│  │  │  ├─ GeistMonoVF.woff
-│  │  │  └─ GeistVF.woff
-│  │  ├─ layout.tsx
-│  │  ├─ page.tsx
-│  │  └─ SchemaOrg.tsx
-│  ├─ assects
-│  │  ├─ images
-│  │  │  ├─ lalitha.png
-│  │  │  └─ profile.png
-│  │  ├─ index.tsx
-│  │  └─ logo
-│  │     └─ lalithalogo.png
-│  ├─ components
-│  │  ├─ shared
-│  │  │  ├─ AnimationWrapper.tsx
-│  │  │  ├─ footer
-│  │  │  │  └─ Footer.tsx
-│  │  │  ├─ header
-│  │  │  │  └─ Header.tsx
-│  │  │  └─ ThemeToggle.tsx
-│  │  └─ ui
-│  │     ├─ alert-dialog.tsx
-│  │     ├─ avatar.tsx
-│  │     ├─ badge.tsx
-│  │     ├─ blur-fade.tsx
-│  │     ├─ border-beam.tsx
-│  │     ├─ button.tsx
-│  │     ├─ card.tsx
-│  │     ├─ dialog.tsx
-│  │     ├─ icon-cloud.tsx
-│  │     ├─ input.tsx
-│  │     ├─ pagination.tsx
-│  │     ├─ scroll-area.tsx
-│  │     ├─ select.tsx
-│  │     ├─ separator.tsx
-│  │     ├─ skeleton.tsx
-│  │     ├─ tabs.tsx
-│  │     └─ tooltip.tsx
-│  ├─ config
-│  │  └─ envConfig.tsx
-│  ├─ constant
-│  │  └─ data
-│  │     ├─ data.tsx
-│  │     ├─ experienceData.tsx
-│  │     └─ projectData.tsx
-│  ├─ features
-│  │  ├─ Home
-│  │  │  ├─ @components
-│  │  │  │  ├─ Experiance.tsx
-│  │  │  │  ├─ HeroSection.tsx
-│  │  │  │  ├─ ImageSection.tsx
-│  │  │  │  ├─ Project.tsx
-│  │  │  │  └─ TechStack.tsx
-│  │  │  └─ Home.tsx
-│  │  └─ Project
-│  │     └─ Project.tsx
-│  ├─ hooks
-│  │  ├─ useDebounce.tsx
-│  │  └─ useTheme.tsx
-│  ├─ lib
-│  │  ├─ network.ts
-│  │  └─ utils.ts
-│  ├─ schema
-│  ├─ styles
-│  │  ├─ globals.scss
-│  │  ├─ notion.scss
-│  │  └─ prism.scss
-│  ├─ types
-│  │  └─ commonType.ts
-│  └─ utils
-│     ├─ helper.ts
-│     ├─ notion.ts
-│     └─ RichTextComponent.tsx
-├─ tailwind.config.ts
-└─ tsconfig.json
-
 ```
