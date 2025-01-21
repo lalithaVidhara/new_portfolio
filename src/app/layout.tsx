@@ -7,9 +7,9 @@ import AnimationWrapper from "../components/shared/AnimationWrapper";
 import Header from "../components/shared/header/Header";
 import Footer from "../components/shared/footer/Footer";
 export const metadata: Metadata = {
-  title: "Lalitha Sri Vidhara | Undergraduate Student",
-  description: "Experienced Software Engineer with 2+ years in MERN stack, TypeScript, Next.js, React Native, AWS, Docker, and more. Sylhet Polytechnic Institute graduate. Let's bring your ideas to life with scalable, efficient web solutions!",
-  keywords: "Lalitha Sri Vidhara, Software Engineer, Full Stack Developer, MERN Stack, TypeScript, Next.js, React Native, AWS, Docker, JavaScript, MongoDB, Express.js, Node.js, PostgreSQL, MySQL, Laravel, GraphQL, Prisma, Fastify, Strapi.io, SJ Innovation, elPixala, Sylhet Polytechnic Institute, SPI, Sylhet, Bangladesh",
+  title: "Lalitha Sri Vidhara | Portfolio",
+  description: "An Undergraduate Student currently persuing the BSc.in Information Systems at SUSL. Passionate about building innovative and scalable solutions while staying at the forefront of emerging technologies and industry trends.",
+  keywords: "Lalitha Sri Vidhara, Software Engineer, Full Stack Developer, MERN Stack, TypeScript, Next.js, React Native, AWS, Docker, JavaScript, MongoDB, Express.js, Node.js, PostgreSQL, MySQL, Laravel, GraphQL, Prisma, Fastify",
   authors: [{ name: "Lalitha Sri Vidhara", url: "test" }],
   robots: {
     index: true,
@@ -26,15 +26,15 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "test",
-    siteName: "Lalitha Sri Vihdara - Undergraduate Student",
-    title: "Lalitha Sri Vidhara | Software Engineer | Full Stack Developer | Backend Engineer",
-    description: "An Undergraduate Student",
+    siteName: "Lalitha Sri Vihdara - Portfolio",
+    title: "Lalitha Sri Vidhara | Portfolio",
+    description: "Undergraduate Student | Full Stack Developer | Technophile",
     images: [
       {
         url: "/lalitha.png",
         width: 1200,
         height: 630,
-        alt: "Lalitha Sri Vidhara - Undergraduate Student",
+        alt: "Lalitha Sri Vidhara - Portfolio",
       },
     ],
   },
